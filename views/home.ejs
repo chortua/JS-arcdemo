@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/otto_style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otto</title>
+</head>
+<body>
+        <!--https://www.youtube.com/watch?v=y4qqQeUDCBQ-->
+    <!--https://www.youtube.com/watch?v=GTLLnF30up4-->
+    <div class="screen">
+        <button class="otto_mission_button" onclick="pick_up_at_kardex()" type="button">pick_up_at_kardex</button>
+        <button class="otto_mission_button" onclick="get_battery()" type="button">battery Level</button>
+        <button class="otto_mission_button" onclick="pick_up_at_A()" type="button">pick_up_at_A</button>
+        <div id="warehouse_main" class="warehouse_main">
+            <div id="pick_up" class="pick_up" onClick="reply_click(this.id)"><h5>Pick up</h5></div>
+            <div id="drop_100_A" class="drop"onClick="reply_click(this.id)" ><h1>A</h1></div>
+            <div id="drop_100_B" class="drop" onClick="reply_click(this.id)"><h1>B</h1></div>
+            <div id="drop_100_C" class="drop" onClick="reply_click(this.id)"><h1>C</h1></div>
+            <div id="fifteen_parking_mpx" class="otto_fifteen_parking"></div>
+            <div id="fifteen_parking_kardex" class="otto_fifteen_parking"></div>
+            <div class="kardex"><h1>kardex</h1></div>
+            <div class="otto_100">
+                <div class="otto_body">
+                    <div class="bracket"></div>
+                </div>
+            </div>
+            <div class="nipper">
+                <div class="nipper_fork_l"></div>
+                <div class="nipper_fork_r"></div>
+                <div class="nipper_frame"></div>
+                <div class="nipper_front"></div>
+                <div class="nipper_lidar"></div>
+                <div class="nipper_screen">
+                    <div class="nipper_screen_display"></div>
+                </div>
+            </div>
+
+                <div class="otto">
+                <div class="break"></div>
+                </div>
+            
+        </div>
+
+        <div class="warehouse_entrance"></div>
+
+    </div>
+</body>
+<script src="otto_script.js"></script>
+</html>

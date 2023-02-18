@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(231, 216, 216);    
+}
+.screen{
+    position: relative;
+    background-color: yellow;
+    width: 320mm;
+    height: 320mm;
+
+}
+.warehouse_main{
+    position:absolute;
+    background-color: white;
+    top: 10mm;
+    left: 10mm;
+    height: 300mm;
+    width: 190mm;
+}
+.warehouse_entrance{
+    position: absolute;
+    background-color: white; 
+    height: 100mm;
+    width: 65mm;
+    left: 200mm;
+    top:210mm;
+    
+}
+.kardex{
+    position:absolute;
+    background-color: rgb(82, 82, 199);
+    height:26mm;
+    width: 27mm;
+    top: 160mm;
+}
+
+.otto_100{
+    position: absolute;
+    top:120mm;
+    left: 150mm;
+    background-color: silver;
+    width: 5.5mm;
+    height: 7.5mm;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+    
+}
+.otto_body{
+    position: absolute;
+    background-color: black;
+    top:0.2mm;
+    left: 0.2mm;
+    width: 5.1mm;
+    height: 7.0mm;
+    border-radius: 10% 10% 10% 10% / 10% 10% 10% 10%;
+}
+.bracket{
+    position: absolute;
+    background-color: silver;
+    width: 4.0mm;
+    height: 0.8mm;
+    bottom: 1.0mm;
+    left:0.55mm;
+}
+.pick_up {
+    position: absolute;
+    top:160mm;
+    left: 30mm;
+    background-color: rgb(174, 233, 107);
+    width: 8.5mm;
+    height: 6.5mm;
+    text-align: center;
+   
+
+}
+.drop {
+    position: absolute;
+    top: 30mm;
+    left: 40mm;
+    background-color: greenyellow;
+    width: 6.5mm;
+    height: 8.5mm;
+
+}
+.otto_fifteen_parking{
+        position:relative;
+        left:5mm;
+        top:10mm;
+    
+        width: 18.3mm; /* 214*/
+        height: 12.83mm; /*83 */
+        background: rgb(207, 214, 143);
+        border-radius: 7% 7% 7% 7% / 10% 10% 10% 10%; 
+    
+
+}
+.nipper{
+    position: absolute;
+    background-color: white;
+    top:100mm;
+    left:100mm;
+    height: 6.7mm;
+    width:16.1mm;
+}
+.nipper_fork_l{
+    position: absolute;
+    background-color: silver ;
+
+    right:0mm;
+    top:0.5mm;
+    height: 2.0mm;
+    width:13.0mm;
+    border-radius: 0% 9% 9% 0% / 0% 14% 14% 0% ;
+}
+.nipper_fork_r{
+    position: absolute;
+    background-color: silver ;
+
+    right:0mm;
+    bottom:0.5mm;
+    height: 2.0mm;
+    width:13.0mm;
+    border-radius: 0% 9% 9% 0% / 0% 14% 14% 
+}
+.nipper_frame{
+    position: absolute;
+    background-color: black ;
+    left:2.6mm;
+    height: 6.85mm;
+    width:0.5mm;
+}
+.nipper_front{
+    position: absolute;
+    background-color: rgb(203, 207, 195);
+
+
+    left:0mm;
+    height: 6.7mm;
+    width:2.6mm;    
+    border-radius:20% 0% 0% 20% / 30% 0% 0% 30%  ;
+}
+.nipper_lidar{
+    position: absolute;
+    background-color: black;
+
+    left:2.3mm;
+    bottom:0mm;
+    height: 1.0mm;
+    width:1.0mm;    
+    border-radius:14% 14% 14% 14% / 14% 14% 14% 14%  
+
+
+}
+.nipper_screen_display{
+    position: absolute;
+    background-color: rgb(81, 163, 173);
+
+    left:0.60mm;
+    bottom:2.2mm;
+    height: 2mm;
+    width:1mm;    
+    border-radius:14% 14% 14% 14% / 14% 14% 14% 14%  
+
+}
+
+body{
+    background: #3395f3;
+}
+
+.otto{
+    position:relative;
+    left:50%;
+    top:50%;
+
+    width: 18.3mm; /* 214*/
+    height: 12.83mm; /*83 */
+    background: red;
+    border-radius: 7% 7% 7% 7% / 10% 10% 10% 10%; 
+
+}
+
+.break{
+    position:absolute;
+    right:0%;
+    top:0%;
+
+    width: 18.3mm; /* 214*/
+    height: 12.8mm; /*83 */
+    background: black;
+    border-radius: 7% 11% 11% 7% / 10% 30% 30% 10%; 
+
+}
